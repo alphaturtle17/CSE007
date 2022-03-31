@@ -5,7 +5,7 @@ CSE 007
 Card picker program, determines the card that you're getting and what suit based on random number generating
 VS Code
 */
-public class Card {
+public class Cards {
     public static void main(String args[]){
 
         String suitName = "";

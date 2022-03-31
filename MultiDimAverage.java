@@ -30,6 +30,21 @@ public class MultiDimAverage {
         return total / counter;
     }
 
+    public static double findRowAverage(int[][] list) {
+        double rowAverages[] = new double[list.length];
+        double total = 0;
+        int counter = 0;
+        for(int row = 0; row < list.length; row++){
+            for(int col = 0; col < list[row].length; col++){
+                total = total + list[row][col];
+            }
+            rowAverages[row] = total / list[row].length;
+            total = 0;
+            counter += 1;
+        }
+        return total / counter;
+    }
+
     public static double findAverage(double[][] list) {
         double total = 0;
         int counter = 0;
