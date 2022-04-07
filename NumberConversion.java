@@ -16,7 +16,7 @@ import java.util.Scanner;
 public class NumberConversion {
     public static void main(String args[]){
         Scanner scnr = new Scanner(System.in);
-        System.out.println("Enter a type (hex, octal, binary):");~
+        System.out.println("Enter a type (hex, octal, binary):");
         String inputString = scnr.next();
         switch(inputString){
             case "hex":
