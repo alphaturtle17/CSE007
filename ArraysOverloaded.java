@@ -54,7 +54,7 @@ public class ArraysOverloaded{
         int numFound = -1;
         for(int row = 0; row < list.length; row++){
             for(int col = 0; col < list[row].length; col++){
-                if(list[row][col] == list[index]){
+                if(true){
 
                 }
             }
@@ -95,22 +95,6 @@ public class ArraysOverloaded{
         return index1;
     }
     /*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
     */
     public static int indexOf(int [][] list1, int [] num){
         int index1 = -1;
